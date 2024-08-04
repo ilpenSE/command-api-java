@@ -3,7 +3,7 @@ This is more like a library than an API. It might be a good example for learning
 In this example we have 2 commands whose help and copystr.
 ## Usage
 The usage was given in [Main file.](src/main/java/dev/elite/Main.java) <br/>
-You can use `registerCommand(Command cmd)` method to add a command and you can handle commands by using `executeCommand(String cmd, String[] args)`.
+You can use `registerCommands()` method to initialize the commands and you can handle commands by using `executeCommand(String cmd, String[] args)`.
 ## Commands
 ### Help Command
 Usage: help <command (optional)><br/>
